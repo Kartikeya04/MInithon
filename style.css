@@ -1,0 +1,170 @@
+.start {
+  color: black;
+  font-size: 64px;
+  font-family: "Times New Roman", Times, serif;
+}
+.section1 {
+  padding: 3rem;
+  text-align: center;
+}
+.navbar .navbar-expand-lg .navbar-dark {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.ViewB {
+  background-color: black;
+  color: white;
+  border-radius: 10%;
+  padding: 20px;
+  margin: 20px;
+  height: 5rem;
+  width: 13rem;
+}
+.ViewB:hover {
+  background-color: aliceblue;
+  transform: rotate(45deg) scale(0.9);
+}
+.b2:hover {
+  background-color: aliceblue;
+  transform: rotate(-45deg) scale(0.8);
+}
+.section1 {
+  background: url("./mike-tinnion-3ym6i13Y9LU-unsplash.jpg") no-repeat center;
+  background-position: contain;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  width: 100vw;
+}
+#Blog {
+  text-align: center;
+}
+.submit7 {
+  margin: 20px;
+  border-radius: 30%;
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+.submit7:hover {
+  background-color: white;
+  color: black;
+}
+.Section7 {
+  position: relative;
+}
+.feed {
+  visibility: hidden;
+  color: red;
+  background-color: pink;
+  padding: 9px;
+}
+
+.feed-1 {
+  visibility: visible;
+}
+#invalidemail {
+  display: none;
+}
+html {
+  scroll-behavior: "smooth";
+}
+.nav-link {
+  cursor: pointer;
+}
+.log-end {
+  margin-left: 15px;
+}
+.price {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+
+  /* background-color: aquamarine; */
+}
+.pri {
+  list-style: none;
+  border-radius: 30%;
+}
+.p-1 {
+  background-color: burlywood;
+}
+.p-1:hover {
+  background-color: aliceblue;
+}
+.p-2 {
+  background-color: burlywood;
+}
+.p-2:hover {
+  background-color: aliceblue;
+}
+.p-3 {
+  background-color: burlywood;
+}
+.p-3:hover {
+  background-color: aliceblue;
+}
+
+@media (max-width: 700px) {
+  .pri {
+    disply: none;
+  }
+  .p-1 {
+    disply: none;
+  }
+  .p-2 {
+    disply: none;
+  }
+  .p-3 {
+    disply: none;
+  }
+  #Blog {
+    margin-top: 20px;
+  }
+  #Blog li {
+    font-size: small;
+  }
+
+  .Section7-1 {
+    font-size: small;
+    /* margin: 10px; */
+  }
+}
+
+@media (max-width: 1200px) {
+  .blog {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .blog {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog {
+    max-width: 100%;
+  }
+}
+.sec {
+  background-color: rgb(157, 128, 92);
+}
+footer {
+  background-color: burlywood;
+}
+.first-7 input {
+  width: 24rem;
+}
+.second-7 input {
+  width: 24rem;
+}
+.third-7 input {
+  width: 24rem;
+  height: 14rem;
+}
