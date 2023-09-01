@@ -1,1 +1,1 @@
-# MInithon
+# Minithon
